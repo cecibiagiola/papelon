@@ -68,12 +68,12 @@ function ProductCard({ product, index, onChange, onRemove, canRemove }) {
         <select
           value={product.layers}
           onChange={(e) => onChange(product.id, 'layers', e.target.value)}
-          className="bg-white/10 rounded-lg px-3 py-2 outline-none focus:ring-2 focus:ring-primary"
+          className="bg-white/10 text-white rounded-lg px-3 py-2 outline-none focus:ring-2 focus:ring-primary"
         >
-          <option value="">—</option>
-          <option value="1">1</option>
-          <option value="2">2</option>
-          <option value="3">3</option>
+          <option value="" className="text-black">—</option>
+          <option value="1" className="text-black">1</option>
+          <option value="2" className="text-black">2</option>
+          <option value="3" className="text-black">3</option>
         </select>
       </div>
     </div>
