@@ -58,7 +58,7 @@ function App() {
       <div className="flex flex-col items-center gap-1 text-center">
         <h1 className="text-2xl font-bold text-primary">Papelón</h1>
         <p className="text-sm text-white/60">
-          Compará precios de papel higiénico y encontrá la opción más conveniente
+          Limpiate el culo al precio más conveniente del mercado.
         </p>
       </div>
 
